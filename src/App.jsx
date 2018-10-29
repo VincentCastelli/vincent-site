@@ -1,25 +1,18 @@
-import React, { Component } from 'react';
+import React from 'react';
+import Header from './components/Header';
+import Main from './components/Main';
 
-class App extends Component {
-  constructor(props) {
-    super(props);
-
-    this.state = {
-      devFirstName: 'Vincent',
-      devLastName: 'Castelli',
-    };
-  }
-
-  render() {
-    const { devFirstName, devLastName } = this.state;
-    return (
-      <div>
-        <div className="title-head">
-          <h1>{`This web template was created by ${devFirstName} ${devLastName}`}</h1>
-        </div>
-      </div>
-    );
-  }
-}
+const App = () => {
+  return (
+    <div>
+      <header>
+        <Header />
+      </header>
+      <main>
+        <Main />
+      </main>
+    </div>
+  );
+};
 
 export default App;
