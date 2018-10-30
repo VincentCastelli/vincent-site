@@ -3,10 +3,12 @@ import { NavLink } from 'react-router-dom';
 
 const Header = () => {
   return (
-    <div className="menu-btn">
-      <div className="btn-hash" />
-      <div className="btn-hash" />
-      <div className="btn-hash" />
+    <div>
+      <div className="menu-btn">
+        <div className="btn-hash" />
+        <div className="btn-hash" />
+        <div className="btn-hash" />
+      </div>
 
       <nav className="menu">
         <div className="menu-branding">
