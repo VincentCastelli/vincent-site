@@ -1,10 +1,11 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
+import PropTypes from 'prop-types';
 
-const Header = () => {
+const Header = (props) => {
   return (
     <div>
-      <div className="menu-btn">
+      <div className="menu-btn" onClick={props.onClick}>
         <div className="btn-hash" />
         <div className="btn-hash" />
         <div className="btn-hash" />
@@ -32,6 +33,10 @@ const Header = () => {
       </nav>
     </div>
   );
+};
+
+Header.propTypes = {
+  onClick: PropTypes.func.isRequired,
 };
 
 export default Header;
