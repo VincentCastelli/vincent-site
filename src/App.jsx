@@ -63,6 +63,11 @@ class App extends Component {
         <main>
           <Main />
         </main>
+        <footer className="main-footer">
+          <p>
+            &copy; 2018 Vincent Castelli
+          </p>
+        </footer>
       </div>
     );
   }
