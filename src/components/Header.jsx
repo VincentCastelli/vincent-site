@@ -17,17 +17,17 @@ const Header = (props) => {
         </div>
 
         <ul className="menu-nav">
-          <li className="nav-item current">
-            <NavLink className="nav-link" exact to="/">Home</NavLink>
+          <li className="nav-item">
+            <NavLink activeClassName="current" className="nav-link" exact to="/">Home</NavLink>
           </li>
           <li className="nav-item">
-            <NavLink className="nav-link" exact to="/about">About Me</NavLink>
+            <NavLink activeClassName="current" className="nav-link" exact to="/about">About Me</NavLink>
           </li>
           <li className="nav-item">
-            <NavLink className="nav-link" exact to="/projects">Projects</NavLink>
+            <NavLink activeClassName="current" className="nav-link" exact to="/projects">Projects</NavLink>
           </li>
           <li className="nav-item">
-            <NavLink className="nav-link" exact to="/contact">Contact Me</NavLink>
+            <NavLink activeClassName="current" className="nav-link" exact to="/contact">Contact Me</NavLink>
           </li>
         </ul>
       </nav>
