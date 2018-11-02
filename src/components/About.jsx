@@ -23,26 +23,29 @@ const About = () => {
         <div className="job job-1">
           <h3>Looking For Opportunities</h3>
           <h6>Software Engineer</h6>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            Quisquam, nulla molestiae soluta illum culpa voluptate cum quaerat quae numquam fugiat.
-          </p>
+          <ul>
+            <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+            <li>Aut modi ab laboriosam sequi molestias est placeat repudiandae inventore.</li>
+            <li>Iusto vero ipsa magnam numquam est quaerat illum at natus sed accusamus.</li>
+          </ul>
         </div>
         <div className="job job-2">
           <h3>Uber Eats</h3>
           <h6>Project Manager</h6>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            Quisquam, nulla molestiae soluta illum culpa voluptate cum quaerat quae numquam fugiat.
-          </p>
+          <ul>
+            <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+            <li>Aut modi ab laboriosam sequi molestias est placeat repudiandae inventore.</li>
+            <li>Iusto vero ipsa magnam numquam est quaerat illum at natus sed accusamus.</li>
+          </ul>
         </div>
         <div className="job job-3">
           <h3>Microsoft</h3>
           <h6>Project Lead</h6>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            Quisquam, nulla molestiae soluta illum culpa voluptate cum quaerat quae numquam fugiat.
-          </p>
+          <ul>
+            <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+            <li>Aut modi ab laboriosam sequi molestias est placeat repudiandae inventore.</li>
+            <li>Iusto vero ipsa magnam numquam est quaerat illum at natus sed accusamus.</li>
+          </ul>
         </div>
       </div>
     </div>

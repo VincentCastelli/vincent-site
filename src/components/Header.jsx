@@ -18,16 +18,16 @@ const Header = (props) => {
 
         <ul className="menu-nav">
           <li className="nav-item">
-            <NavLink activeClassName="current" className="nav-link" exact to="/">Home</NavLink>
+            <NavLink activeClassName="current" className="nav-link" onClick={props.onClick} exact to="/">Home</NavLink>
           </li>
           <li className="nav-item">
-            <NavLink activeClassName="current" className="nav-link" exact to="/about">About Me</NavLink>
+            <NavLink activeClassName="current" className="nav-link" onClick={props.onClick} exact to="/about">About Me</NavLink>
           </li>
           <li className="nav-item">
-            <NavLink activeClassName="current" className="nav-link" exact to="/projects">Projects</NavLink>
+            <NavLink activeClassName="current" className="nav-link" onClick={props.onClick} exact to="/projects">Projects</NavLink>
           </li>
           <li className="nav-item">
-            <NavLink activeClassName="current" className="nav-link" exact to="/contact">Contact Me</NavLink>
+            <NavLink activeClassName="current" className="nav-link" onClick={props.onClick} exact to="/contact">Contact Me</NavLink>
           </li>
         </ul>
       </nav>
