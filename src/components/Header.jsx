@@ -1,12 +1,15 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
+import PropTypes from 'prop-types';
 
-const Header = () => {
+const Header = (props) => {
   return (
-    <div className="menu-btn">
-      <div className="btn-hash" />
-      <div className="btn-hash" />
-      <div className="btn-hash" />
+    <div>
+      <div className="menu-btn" onClick={props.onClick}>
+        <div className="btn-hash" />
+        <div className="btn-hash" />
+        <div className="btn-hash" />
+      </div>
 
       <nav className="menu">
         <div className="menu-branding">
@@ -15,21 +18,25 @@ const Header = () => {
 
         <ul className="menu-nav">
           <li className="nav-item">
-            <NavLink activeClassName="current" className="nav-link" exact to="/">Home</NavLink>
+            <NavLink activeClassName="current" className="nav-link" onClick={props.onClick} exact to="/">Home</NavLink>
           </li>
           <li className="nav-item">
-            <NavLink activeClassName="current" className="nav-link" exact to="/about">About Me</NavLink>
+            <NavLink activeClassName="current" className="nav-link" onClick={props.onClick} exact to="/about">About Me</NavLink>
           </li>
           <li className="nav-item">
-            <NavLink activeClassName="current" className="nav-link" exact to="/projects">Projects</NavLink>
+            <NavLink activeClassName="current" className="nav-link" onClick={props.onClick} exact to="/projects">Projects</NavLink>
           </li>
           <li className="nav-item">
-            <NavLink activeClassName="current" className="nav-link" exact to="/contact">Contact Me</NavLink>
+            <NavLink activeClassName="current" className="nav-link" onClick={props.onClick} exact to="/contact">Contact Me</NavLink>
           </li>
         </ul>
       </nav>
     </div>
   );
+};
+
+Header.propTypes = {
+  onClick: PropTypes.func.isRequired,
 };
 
 export default Header;
