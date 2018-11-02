@@ -9,9 +9,6 @@ const About = () => {
           Me
         </span>
       </h1>
-      <h2 className="bio-leadin">
-        A little about me...
-      </h2>
       <div className="about-info">
         <div className="bio-image" />
 
