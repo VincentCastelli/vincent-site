@@ -65,7 +65,8 @@ class App extends Component {
         </main>
         <footer className="main-footer">
           <p>
-            &copy; 2018 Vincent Castelli
+          Vincent Castelli&nbsp;
+            <span className="text-secondary">&copy; 2018</span>
           </p>
         </footer>
       </div>
