@@ -4,6 +4,7 @@ import project3Mp4 from '../img/CavaTable.mp4';
 import project3Ogv from '../img/CavaTable.ogv';
 import project3Webm from '../img/CavaTable.webm';
 import project3 from '../img/project3.jpg';
+import project4 from '../img/chartjs.jpg';
 
 const Projects = () => {
   return (
@@ -52,20 +53,20 @@ const Projects = () => {
             </a>
           </a>
         </div>
-        {/* <div className="item">
+        <div className="item">
           <a href="#!" className="img-anchor">
             <img src={project4} alt="project4" />
-            <div className="img-caption"><h4>Project 4</h4></div>
+            <div className="img-caption"><h4>Cryptocurrency Charting Tool</h4></div>
           </a>
-          <a href="#!" className="btn-light">
+          <a href="https://vincentcastelli.github.io/bitcoin-chartjs/" target="_blank" rel="noopener noreferrer" className="btn-light">
             <i className="fas fa-eye" />
             Project
           </a>
-          <a href="#!" className="btn-dark">
+          <a href="https://github.com/VincentCastelli/bitcoin-chartjs" target="_blank" rel="noopener noreferrer" className="btn-dark">
             <i className="fab fa-github" />
             Github
           </a>
-        </div> */}
+        </div>
       </div>
     </div>
   );
