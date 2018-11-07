@@ -1,7 +1,0 @@
-{
-  "name": "vincent-site",
-  "description": "Vincent's personal portfolio site",
-  "repository": "https://github.com/VincentCastelli/vincent-site",
-  "keywords": ["react", "node", "express"],
-  "image": "heroku/node.js"
-}
