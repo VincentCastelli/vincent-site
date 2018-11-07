@@ -27,7 +27,7 @@ module.exports = {
             ]
       },
       {
-        test: /\.jpg$/,
+        test: /\.(jpg|mp4|ogv|webm)$/,
         use: 'file-loader',
       },
     ],

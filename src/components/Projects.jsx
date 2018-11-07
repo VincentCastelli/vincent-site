@@ -1,9 +1,9 @@
 import React from 'react';
-import project1 from '../img/project1.jpg';
-import project2 from '../img/project2.jpg';
+import project2 from '../img/mftMe.jpg';
+import project3Mp4 from '../img/CavaTable.mp4';
+import project3Ogv from '../img/CavaTable.ogv';
+import project3Webm from '../img/CavaTable.webm';
 import project3 from '../img/project3.jpg';
-import project4 from '../img/project4.jpg';
-import project5 from '../img/project5.jpg';
 
 const Projects = () => {
   return (
@@ -17,46 +17,45 @@ const Projects = () => {
       <div className="projects">
         <div className="item">
           <a href="#!">
-            <img src={project1} alt="project1" />
-          </a>
-          <a href="#!" className="btn-light">
-            <i className="fas fa-eye" />
-            Project
-          </a>
-          <a href="#!" className="btn-dark">
-            <i className="fab fa-github" />
-            Github
+            <div className="coming-soon" />
           </a>
         </div>
         <div className="item">
-          <a href="#!">
+          <a href="#!" className="img-anchor">
             <img src={project2} alt="project2" />
+            <div className="img-caption"><h4>MFT 4 Me</h4></div>
           </a>
-          <a href="#!" className="btn-light">
-            <i className="fas fa-eye" />
-            Project
-          </a>
-          <a href="#!" className="btn-dark">
+          <a href="https://github.com/VincentCastelli/mft-site-prod" target="_blank" rel="noopener noreferrer" className="btn-dark">
             <i className="fab fa-github" />
             Github
           </a>
         </div>
         <div className="item">
-          <a href="#!">
-            <img src={project3} alt="project3" />
-          </a>
-          <a href="#!" className="btn-light">
-            <i className="fas fa-eye" />
-            Project
-          </a>
-          <a href="#!" className="btn-dark">
-            <i className="fab fa-github" />
-            Github
+          <a href="#!" className="img-anchor">
+            <video controls preload="none" poster={project3}>
+              <source src={project3Mp4} type="video/mp4" />
+              {/* Webkit Video */}
+              <source src={project3Webm} type="video/webm" />
+              {/* Chrome / Newest versions of Firefox and Opera */}
+              <source src={project3Ogv} type="video/ogv" />
+              {/* Firefox and Opera */}
+            Your browser does not support the video tag.
+              <img
+                src={project3}
+                alt="Cavatable Functional Walkthrough"
+              />
+            </video>
+            <div className="img-caption"><h4>Cavatable</h4></div>
+            <a href="https://github.com/cava-devs/vincent-photos" target="_blank" rel="noopener noreferrer" className="btn-dark hot-fix">
+              <i className="fab fa-github" />
+              Github
+            </a>
           </a>
         </div>
-        <div className="item">
-          <a href="#!">
+        {/* <div className="item">
+          <a href="#!" className="img-anchor">
             <img src={project4} alt="project4" />
+            <div className="img-caption"><h4>Project 4</h4></div>
           </a>
           <a href="#!" className="btn-light">
             <i className="fas fa-eye" />
@@ -66,20 +65,7 @@ const Projects = () => {
             <i className="fab fa-github" />
             Github
           </a>
-        </div>
-        <div className="item">
-          <a href="#!">
-            <img src={project5} alt="project5" />
-          </a>
-          <a href="#!" className="btn-light">
-            <i className="fas fa-eye" />
-            Project
-          </a>
-          <a href="#!" className="btn-dark">
-            <i className="fab fa-github" />
-            Github
-          </a>
-        </div>
+        </div> */}
       </div>
     </div>
   );

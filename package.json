@@ -1,7 +1,7 @@
 {
-  "name": "",
+  "name": "vincent-site",
   "version": "1.0.0",
-  "description": "",
+  "description": "A personal portfolio site developed by Vincent Castelli",
   "scripts": {
     "start-dev": "nodemon server.js",
     "build": "webpack -d --watch",
