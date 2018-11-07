@@ -58,6 +58,10 @@
     'job3';
 
     grid-template-columns: 1fr;
+
+    .bio-image {
+      transform: none;
+    }
   }
 
   .projects {
@@ -71,6 +75,18 @@
     .lg-heading {
       margin-top: 10vh;
       font-size: 2rem;
+    }
+  }
+
+  .about-info {
+    p {
+      font-size: 1rem;
+    }
+  }
+
+  .contact-info {
+    div {
+      font-size: 1rem;
     }
   }
 

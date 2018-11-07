@@ -15,36 +15,68 @@ const About = () => {
         <div className="bio">
           <h3 className="text-secondary">BIO</h3>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            Aut modi ab laboriosam sequi molestias est placeat repudiandae inventore.
-            Iusto vero ipsa magnam numquam est quaerat illum at natus sed accusamus.
+          Software engineer with strong web development, product design, and leadership experience.
+          I use my experience in Javascript, React and Redux to build dynamic front-end views,
+          as well as my experience in Node.js/Express, Redis, and several SQL or NoSQL databases
+          to create RESTful APIs and service-oriented architectures on the back end.
+            <br />
+            <br />
+          I am passionate about platforms that put community first and bring users together.
+          Engineering offers me a way to use my creativity to bring things into existence
+          that can contribute to that passion.
           </p>
         </div>
         <div className="job job-1">
-          <h3>Looking For Opportunities</h3>
-          <h6>Software Engineer</h6>
+          <h2>Recent Projects</h2>
+          <h4>Software Engineer</h4>
           <ul>
-            <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
-            <li>Aut modi ab laboriosam sequi molestias est placeat repudiandae inventore.</li>
-            <li>Iusto vero ipsa magnam numquam est quaerat illum at natus sed accusamus.</li>
+            <li>
+              <span className="text-secondary">Portfolio Site&nbsp;</span>
+              - Personal portfolio site with bio, recent work, and contact information
+            </li>
+            <li>
+              <span className="text-secondary">Windowseat&nbsp;</span>
+              - Backend for a frontend legacy codebase reservations microservice
+            </li>
+            <li>
+              <span className="text-secondary">Cavatable&nbsp;</span>
+              - Photo media microservice for a frontend item detail page
+            </li>
           </ul>
         </div>
         <div className="job job-2">
-          <h3>Uber Eats</h3>
-          <h6>Project Manager</h6>
+          <h2>Uber Eats</h2>
+          <h4>Project Manager, Enterprise</h4>
           <ul>
-            <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
-            <li>Aut modi ab laboriosam sequi molestias est placeat repudiandae inventore.</li>
-            <li>Iusto vero ipsa magnam numquam est quaerat illum at natus sed accusamus.</li>
+            <li>
+              Managed team of seven analysts providing quality assurance of client tools
+              and maintenance of program platform
+            </li>
+            <li>
+              Managed onboarding activities for local chain restaurants and enterprise
+              partnerships on UberEATS platform
+            </li>
+            <li>
+              Refined workflow policies, standard operating procedures and recommended
+              streamlined process improvements
+            </li>
           </ul>
         </div>
         <div className="job job-3">
-          <h3>Microsoft</h3>
-          <h6>Project Lead</h6>
+          <h2>Microsoft</h2>
+          <h4>Project Lead, Maps</h4>
           <ul>
-            <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
-            <li>Aut modi ab laboriosam sequi molestias est placeat repudiandae inventore.</li>
-            <li>Iusto vero ipsa magnam numquam est quaerat illum at natus sed accusamus.</li>
+            <li>
+              Managed ops team with 40+ cartographers producing detailed maps of all
+              Bay Area counties
+            </li>
+            <li>
+              Allocated staff to functional teams based on skills, interests, and business needs
+            </li>
+            <li>
+            Identified structure of workflow, training, quality assurance, policy,
+            and instrumentation and reporting teams
+            </li>
           </ul>
         </div>
       </div>
