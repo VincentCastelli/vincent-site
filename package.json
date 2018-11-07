@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "description": "A personal portfolio site developed by Vincent Castelli",
   "scripts": {
-    "start": "node server.js"
+    "start": "node server.js",
+    "build": "webpack -p --mode production"
   },
   "repository": {
     "type": "git",
@@ -61,10 +62,7 @@
     "eslint-plugin-jsx-a11y": "^6.1.1",
     "eslint-plugin-react": "^7.11.1",
     "file-loader": "^2.0.0",
-    "jest": "^23.6.0",
-    "jest-enzyme": "^6.1.2",
     "node-sass": "^4.9.4",
-    "nodemon": "^1.17.5",
     "sass-loader": "^7.1.0",
     "style-loader": "^0.21.0",
     "webpack": "^4.20.2",
