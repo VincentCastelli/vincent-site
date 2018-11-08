@@ -5,7 +5,6 @@ const srcDir = path.join(__dirname, '/src');
 
 
 module.exports = {
-  mode: 'development',
   entry: `${srcDir}/index.jsx`,
   output: {
     path: `${distDir}`,
