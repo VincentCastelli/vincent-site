@@ -23,7 +23,7 @@ const Contact = () => {
           718-724-4386
         </div>
         <div>
-          <a href="https://docs.google.com/document/d/1E4it7w8Bz7jZMUWMNiB0cHNRluC0i-8GVlrvD_OppiA/edit?usp=sharing" target="_blank" rel="noopener noreferrer">
+          <a href="https://drive.google.com/file/d/14NHdsb5unM_SW-CUGJ3X3cI6odhm-jhB/view?usp=sharing" target="_blank" rel="noopener noreferrer">
             <span className="text-secondary">
               <i className="fas fa-file">&nbsp;&nbsp;</i>
             </span>

@@ -16,14 +16,17 @@ const About = () => {
           <h3 className="text-secondary">BIO</h3>
           <p>
           Software engineer with strong web development, product design, and leadership experience.
-          I use my experience in Javascript, React and Redux to build dynamic front-end views,
+          I utilize Javascript, React and Redux to build dynamic front-end views,
           as well as my experience in Node.js/Express, Redis, and several SQL or NoSQL databases
           to create RESTful APIs and service-oriented architectures on the back end.
+          As a leader, I’ve managed professional staff on time-sensitive projects,
+          cultivated a positive work environment, and developed standard operating procedures.
             <br />
             <br />
-          I am passionate about platforms that put community first and bring users together.
-          Engineering offers me a way to use my creativity to bring things into existence
-          that can contribute to that passion.
+          I am passionate about platforms that put communities first and bring users together.
+          Engineering allows me to use my creativity to bring things into existence.
+          I carry this passion with me in any position, as I have with previous work
+          at Uber and Microsoft.
           </p>
         </div>
         <div className="job job-1">
