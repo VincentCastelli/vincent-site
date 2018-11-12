@@ -8,18 +8,16 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/VincentCastelli/project-template.git"
+    "url": "git+https://github.com/VincentCastelli/vincent-site.git"
   },
   "author": "Vincent Castelli",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/VincentCastelli/project-template/issues"
+    "url": "https://github.com/VincentCastelli/vincent-site/issues"
   },
-  "homepage": "https://github.com/VincentCastelli/project-template#readme",
   "dependencies": {
     "body-parser": "^1.18.3",
     "express": "^4.16.3",
-    "normalize.css": "^8.0.0",
     "prop-types": "^15.6.1",
     "react": "^16.5.2",
     "react-dom": "^16.5.2",
@@ -30,7 +28,7 @@
   },
   "babel": {
     "presets": [
-      "@babel/env",
+      "@babel/preset-env",
       "@babel/react"
     ],
     "plugins": [
@@ -42,31 +40,27 @@
     "parser": "babel-eslint"
   },
   "devDependencies": {
-    "@babel/core": "^7.1.0",
+    "@babel/core": "^7.1.5",
     "@babel/plugin-proposal-class-properties": "^7.1.0",
     "@babel/plugin-proposal-object-rest-spread": "^7.0.0",
-    "@babel/preset-env": "^7.1.0",
+    "@babel/preset-env": "^7.1.5",
     "@babel/preset-react": "^7.0.0",
-    "babel-core": "^7.0.0-bridge.0",
-    "babel-eslint": "^10.0.0",
-    "babel-jest": "^23.6.0",
-    "babel-loader": "^8.0.2",
-    "css-loader": "^0.28.11",
-    "enzyme": "^3.6.0",
-    "enzyme-adapter-react-16": "^1.5.0",
-    "eslint": "^5.6.0",
+    "babel-eslint": "^10.0.1",
+    "babel-loader": "^8.0.4",
+    "css-loader": "^1.0.1",
+    "eslint": "^5.9.0",
     "eslint-config-airbnb": "^17.1.0",
     "eslint-loader": "^2.1.1",
     "eslint-plugin-ejs": "0.0.2",
     "eslint-plugin-import": "^2.14.0",
-    "eslint-plugin-jsx-a11y": "^6.1.1",
+    "eslint-plugin-jsx-a11y": "^6.1.2",
     "eslint-plugin-react": "^7.11.1",
     "file-loader": "^2.0.0",
-    "gh-pages": "^2.0.1",
-    "node-sass": "^4.9.4",
+    "html-loader": "^0.5.5",
+    "node-sass": "^4.10.0",
     "sass-loader": "^7.1.0",
-    "style-loader": "^0.21.0",
-    "webpack": "^4.20.2",
-    "webpack-cli": "^3.1.1"
+    "style-loader": "^0.23.1",
+    "webpack": "^4.25.1",
+    "webpack-cli": "^3.1.2"
   }
 }
