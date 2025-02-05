@@ -10,6 +10,7 @@ module.exports = {
   output: {
     path: `${distDir}`,
     filename: 'bundle.js',
+    publicPath: '/vincent-site/'
   },
   module: {
     rules: [
