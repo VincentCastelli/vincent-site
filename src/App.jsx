@@ -1,6 +1,6 @@
-import React, { Component } from 'react';
-import Header from './components/Header';
-import Main from './components/Main';
+import React, { Component } from "react";
+import Header from "./components/Header";
+import Main from "./components/Main";
 
 class App extends Component {
   constructor(props) {
@@ -20,34 +20,37 @@ class App extends Component {
 
   componentDidMount() {
     this.setState({
-      menuBtn: document.querySelector('.menu-btn'),
-      menu: document.querySelector('.menu'),
-      menuNav: document.querySelector('.menu-nav'),
-      menuBranding: document.querySelector('.menu-branding'),
-      navItems: document.querySelectorAll('.nav-item'),
+      menuBtn: document.querySelector(".menu-btn"),
+      menu: document.querySelector(".menu"),
+      menuNav: document.querySelector(".menu-nav"),
+      menuBranding: document.querySelector(".menu-branding"),
+      navItems: document.querySelectorAll(".nav-item"),
     });
   }
 
   handleClick() {
-    const {
-      showMenu, menuBtn, menu, menuNav, menuBranding, navItems,
-    } = this.state;
+    const { showMenu, menuBtn, menu, menuNav, menuBranding, navItems } =
+      this.state;
 
     if (!showMenu) {
-      menuBtn.classList.add('close');
-      menu.classList.add('show');
-      menuNav.classList.add('show');
-      menuBranding.classList.add('show');
-      navItems.forEach((item) => { item.classList.add('show'); });
+      menuBtn.classList.add("close");
+      menu.classList.add("show");
+      menuNav.classList.add("show");
+      menuBranding.classList.add("show");
+      navItems.forEach((item) => {
+        item.classList.add("show");
+      });
       this.setState({
         showMenu: true,
       });
     } else {
-      menuBtn.classList.remove('close');
-      menu.classList.remove('show');
-      menuNav.classList.remove('show');
-      menuBranding.classList.remove('show');
-      navItems.forEach((item) => { item.classList.remove('show'); });
+      menuBtn.classList.remove("close");
+      menu.classList.remove("show");
+      menuNav.classList.remove("show");
+      menuBranding.classList.remove("show");
+      navItems.forEach((item) => {
+        item.classList.remove("show");
+      });
       this.setState({
         showMenu: false,
       });
@@ -65,7 +68,7 @@ class App extends Component {
         </main>
         <footer className="main-footer">
           <p>
-          Vincent Castelli&nbsp;
+            Vincent Castelli&nbsp;
             <span className="text-secondary">&copy; 2018</span>
           </p>
         </footer>
