@@ -43,7 +43,9 @@ jobs:
           python-version: '3.x'
 
       - name: Install dependencies
-        run: npm install
+        run: |
+          npm install eslint@^7.0.0
+          npm install
 
       - name: Build
         run: npm run build
